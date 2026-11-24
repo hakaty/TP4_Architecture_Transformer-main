@@ -1,0 +1,23 @@
+[project]
+name = "tp4-architecture-transformer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hajar El Alaoui", email = "elalaouihajar60@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "torch>=2.15.0",
+    "transformers>=5.24.0",
+]
+
+[project.scripts]
+tp4-architecture-transformer = "tp4_architecture_transformer:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
